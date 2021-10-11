@@ -1,7 +1,13 @@
 var express = require('express');
 var app = express();
 
-console.log( "Hello world")
+console.log("Hello World")
+
+
+app.get("/", (req, res) => {
+    console.log("test")
+    res.send("Hello Express")
+})
 
 
 
@@ -33,7 +39,4 @@ console.log( "Hello world")
 
 
 
-
-
-
- module.exports = app;
+module.exports = app;
