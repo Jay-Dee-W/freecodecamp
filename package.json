@@ -3,8 +3,11 @@
 	"author": "JD Wilson",
 	"description": "freecodecamp backend learning",
 	"keywords": ["freecodecamp", "express", "node"],
+	"license": "MIT",
+	"version": "1.2.0",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		 "moment": "2.14.0" 
 	},
 	"main": "server.js",
 	"scripts": {
