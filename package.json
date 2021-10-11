@@ -2,6 +2,7 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "JD Wilson",
 	"description": "freecodecamp backend learning",
+	"keywords": ["freecodecamp", "express", "node"],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
